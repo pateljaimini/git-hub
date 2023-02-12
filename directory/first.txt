@@ -1,0 +1,35 @@
+patel@Jaimini MINGW64 /d/git hub/directory (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+patel@Jaimini MINGW64 /d/git hub/directory (master)
+$ git add .
+
+patel@Jaimini MINGW64 /d/git hub/directory (master)
+$ git commit -m "try to add new folder on github"
+[master 2ec8fa4] try to add new folder on github
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+patel@Jaimini MINGW64 /d/git hub/directory (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 667 bytes | 333.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/pateljaimini/git-hub.git
+   b8cbb67..2ec8fa4  master -> master
+branch 'master' set up to track 'origin/master'.
+
+patel@Jaimini MINGW64 /d/git hub/directory (master)
+$
