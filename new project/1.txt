@@ -1,1 +1,12 @@
-jhjvdugwudh
+new command
+git branch
+
+git branch -v 
+
+git branch --merged
+
+git branch --no-merged
+
+git branch -d develop
+
+ 
